@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Filterable List</title>
+</head>
+<body>
+    <div class="container-fluid bg-primary py-5 text-white">
+        <h1 class="text-capitalize text-center">filterable list</h1>
+        <p class="text-center h5">
+          Search for one of the Countires and the filter will start removing the ones that dont match the query.
+        </p>
+      </div>
+        
+      
+      <div class="container mt-5">
+        <input type="text" class="form-control mb-5 p-4" placeholder="Search name" id="search-input">
+        <ul class="list-group list-group-flush text-primary h5">
+          <!-- <li class="list-group-item text-capitalize p-4">adam</li> -->
+          <li class="collection-header">
+            <h5>A</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Afghanistan</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Albania</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Algeria</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Andorra</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Angola</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Antigua and Barbuda 
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Argentina</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Armenia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Australia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Austria</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Azerbaijan</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>B</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Bahamas</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Bahrain</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Bangladesh</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Belarus</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Belgium</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Belize</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Benin</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Bhutan</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Bolivia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Bosnia and Herzegovina</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Botswana</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Brazil</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Brunei</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Bulgaria</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Burkina Faso</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Burundi</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>C</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Cabo Verde</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Cambodia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Cameroon
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Canada
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Central African Republic (CAR)
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Chad
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Chile
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">China
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Colombia
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Comoros
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Congo
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Costa Rica
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Cote d'Ivoire
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Croatia
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Cuba
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Cyprus
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Czechia
+            </a>
+          </li>
+          
+
+          <li class="collection-header">
+            <h5>D</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Denmark</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Djibouti</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Dominica</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Dominican Republic</a>
+          </li>
+
+
+          <li class="collection-header">
+            <h5>E</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Ecuador</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Egypt</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Equatorial Guinea</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Eritrea</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Estonia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Eswatini</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Ethiopia</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>F</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Fiji</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Finland</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">France</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>G</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Gabon</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Gambia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Georgia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Germany</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Ghana</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Greece</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Grenada</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Guatemala</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Guinea</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Guinea-Bissau</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Guyana</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>H</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Haiti</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Honduras</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Hungary</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>I</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Iceland</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">India</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Indonesia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Iran</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Iraq</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Ireland</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Israel</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Italy</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>J</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Jamaica</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Japan</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Jordan</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>K</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Kazakhstan</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Kenya</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Kiribati</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Kosovo</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Kuwait</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Kyrgyzstan</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>L</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Laos</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Latvia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Lebanon</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Lesotho</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Liberia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Libya</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Liechtenstein</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Lithuania</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Luxembourg</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>M</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Madagascar</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Malawi</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Malaysia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Maldives</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Mali</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Malta</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Marshall Islands</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Mauritania</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Mauritius</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Mexico</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Micronesia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Moldova</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Monaco</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Mongolia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Montenegro</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Morocco</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Mozambique</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Myanmar</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>N</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Namibia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Nauru</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Nepal</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Netherlands</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">New Zealand</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Nicaragua</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Niger</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Nigeria</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">North Korea</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">North Macedonia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Norway</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>O</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Oman</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>P</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Pakistan</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Palau</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Palestine</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Panama</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Papua New Guinea</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Paraguay</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Peru</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Philippines</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Poland</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Palestine</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Portugal</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>Q</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Qatar</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>R</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Romania</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Russia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Rwanda</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>S</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Saint Kitts and Nevis</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Saint Lucia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Saint Vincent and the Grenadines</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Samoa</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">San Marino</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Sao Tome and Principe</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Saudi Arabia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Senegal</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Serbia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Seychelles</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Sierra Leone</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Singapore</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Slovakia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Slovenia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Solomon Islands</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Somalia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">South Africa</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">South Korea</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">South Sudan</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Spain</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Sri Lanka</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Sudan</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Suriname</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Sweden</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Switzerland</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Syria</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>T</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Taiwan</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Tajikistan</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Tanzania</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Thailand</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Timor-Leste
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Togo</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Tonga</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Trinidad and Tobago
+            </a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Tunisia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Turkey</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Turkmenistan</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Tuvalu</a>
+          </li>
+          
+          <li class="collection-header">
+            <h5>U</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Uganda</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Ukraine</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">United Arab Emirates (UAE)</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">United Kingdom (UK)</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">United States of America (USA)</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Uruguay</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Uzbekistan</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>V</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Vanuatu</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Vatican City (Holy See)</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Venezuela</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Vietnam</a>
+          </li>
+
+          <!-- <li class="collection-header">
+            <h5>W</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Carrie</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Cathy</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Courtney</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>X</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Carrie</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Cathy</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Courtney</a>
+          </li> -->
+
+          <li class="collection-header">
+            <h5>Y</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Yemen</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>Z</h5>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Zambia</a>
+          </li>
+          <li class="list-group-item text-capitalize p-4">
+            <a href="#">Zimbabwe</a>
+          </li>
+        </ul>
+      </div>
+      <script src="index.js"></script>
+</body>
+</html>
